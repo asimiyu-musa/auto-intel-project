@@ -1,0 +1,117 @@
+# ─── PYTHON BYTECODE AND C EXTENSIONS ────────────────────────────────────────────
+__pycache__/
+*.egg
+*.egg-info/
+*.manifest
+*.mo
+*.pot
+*.py[cod]
+*.so
+*$py.class
+*.sage.py
+
+# ─── PYTHON ENVIRONMENTS ─────────────────────────────────────────────────────────
+.Python
+.python-version
+env/
+env.bak/
+ENV/
+venv/
+venv.bak/
+airflow_venv/
+.venv
+
+# ─── PYTHON TOOLS CACHE ──────────────────────────────────────────────────────────
+.mypy_cache/
+.pyre/
+.pytest_cache/
+.dmypy.json
+dmypy.json
+.nox/
+.tox/
+.hypothesis/
+.ropeproject
+.spyderproject
+.spyproject
+
+# ─── PYTHON LOGGING / TESTING ────────────────────────────────────────────────────
+*.cover
+*.log
+*.tmp
+*.temp
+.cache
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+htmlcov/
+logs/
+scrapy.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ─── SCRAPY ──────────────────────────────────────────────────────────────────────
+.scrapy
+
+# ─── AIRFLOW ─────────────────────────────────────────────────────────────────────
+airflow/airflow.db
+airflow/logs/
+airflow/webserver_config.py
+airflow/airflow-webserver.pid
+airflow/config/airflow.cfg
+
+# ─── DOCKER ──────────────────────────────────────────────────────────────────────
+.dockerignore
+
+# ─── DISTRIBUTION / PACKAGING ────────────────────────────────────────────────────
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+share/python-wheels/
+var/
+wheels/
+pip-wheel-metadata/
+target/
+MANIFEST
+.installed.cfg
+
+# ─── PROJECT DATA FILES ──────────────────────────────────────────────────────────
+data/
+output/
+results/
+project_data/*.csv
+*.db
+*.sqlite
+
+# ─── WEB / DOCS / STATIC ─────────────────────────────────────────────────────────
+docs/_build/
+.site
+instance/
+.webassets-cache
+
+# ─── ENVIRONMENT / CONFIG FILES ──────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+local_settings.py
+ipython_config.py
+profile_default/
+
+# ─── JUPYTER / IPYTHON ───────────────────────────────────────────────────────────
+.ipynb_checkpoints
+
+# ─── OS / IDE FILES ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swo
+*.swp
+*~
